@@ -205,7 +205,7 @@ var Theme = /** @class */ (function (_super) {
     };
     Theme.prototype.render = function () {
         var _this = this;
-        var _a = this.props, theme = _a.theme, desktopBackgroundConfig = _a.desktopBackgroundConfig, children = _a.children, style = _a.style, className = _a.className, themeWillUpdate = _a.themeWillUpdate, forceGenerateAcrylicTextures = _a.forceGenerateAcrylicTextures, enableNoiseTexture = _a.enableNoiseTexture, enableGlobalThemeCSSText = _a.enableGlobalThemeCSSText, _b = _a.enableCDN, enableCDN = _b === void 0 ? true : _b, attributes = __rest(_a, ["theme", "desktopBackgroundConfig", "children", "style", "className", "themeWillUpdate", "forceGenerateAcrylicTextures", "enableNoiseTexture", "enableGlobalThemeCSSText", "enableCDN"]);
+        var _a = this.props, theme = _a.theme, desktopBackgroundConfig = _a.desktopBackgroundConfig, children = _a.children, style = _a.style, className = _a.className, themeWillUpdate = _a.themeWillUpdate, forceGenerateAcrylicTextures = _a.forceGenerateAcrylicTextures, enableNoiseTexture = _a.enableNoiseTexture, enableGlobalThemeCSSText = _a.enableGlobalThemeCSSText, enableCDN = _a.enableCDN, attributes = __rest(_a, ["theme", "desktopBackgroundConfig", "children", "style", "className", "themeWillUpdate", "forceGenerateAcrylicTextures", "enableNoiseTexture", "enableGlobalThemeCSSText", "enableCDN"]);
         var currTheme = this.state.currTheme;
         desktopBackgroundConfig = desktopBackgroundConfig || desktopBgDefaultConfig;
         var enableRender = desktopBackgroundConfig.enableRender, renderToScreen = desktopBackgroundConfig.renderToScreen;
@@ -227,6 +227,7 @@ var Theme = /** @class */ (function (_super) {
         desktopBackgroundConfig: desktopBgDefaultConfig,
         themeWillUpdate: themeCallback,
         forceGenerateAcrylicTextures: true,
+        enableCDN: true,
         enableNoiseTexture: false,
         enableGlobalThemeCSSText: true
     };
