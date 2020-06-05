@@ -1,0 +1,50 @@
+{
+  "name": "react-uwp",
+  "version": "1.3.2",
+  "description": "UWP Design & Fluent Design UiKit by React",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myxvisual/react-uwp.git"
+  },
+  "keywords": [
+    "uwp",
+    "microsoft-uwp",
+    "fluent",
+    "microsoft-fluent",
+    "uwp-design",
+    "fluent-design",
+    "react",
+    "typescript",
+    "javascript",
+    "react-components",
+    "windows-uwp"
+  ],
+  "author": "myxvisual",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myxvisual/react-uwp/issues"
+  },
+  "homepage": "https://www.react-uwp.com",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "types": "index.d.ts",
+  "dependencies": {
+    "@juggle/resize-observer": "^2.5.0",
+    "d3-ease": "^1.0.6",
+    "inline-style-prefixer": "^3.0.5",
+    "keycode": "^2.1.8",
+    "marked": "^0.7.0",
+    "mobile-detect": "^1.4.4",
+    "murmurhash-js": "^1.0.0",
+    "prismjs": "^1.17.1",
+    "prop-types": "^15.5.8",
+    "react-lazyload": "^2.2.7",
+    "react-player": "^0.20.0",
+    "react-transition-group": "^1.1.3",
+    "stackblur-canvas": "^1.4.0",
+    "tinycolor2": "^1.4.1"
+  }
+}
